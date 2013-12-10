@@ -1,4 +1,6 @@
 m4_define(`cg_comment',
-`# Beware! This file has been automatically generated, your changes will be'
-`# overwritten.'
-)
+`cg_comment_with(m4_ifelse(`$#', `0', ``# '', ``$1''))')
+
+m4_define(`cg_comment_with',
+`$1Beware! This file has been automatically generated, your changes will be'
+`$1overwritten.')

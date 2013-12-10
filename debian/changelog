@@ -1,8 +1,9 @@
-cfgf (0.1~16) UNRELEASED; urgency=low
+cfgf (0.1~16) unstable; urgency=low
 
-  * Quelch warning about the redundant rule to process rules.d.
+  * quelch warning about the redundant rule to process rules.d
+  * cg_comment: allow the user to specify the comment character
 
- -- Jérémie Koenig <jk@jk.fr.eu.org>  Sat, 19 Oct 2013 03:51:09 -0400
+ -- Jérémie Koenig <jk@jk.fr.eu.org>  Tue, 10 Dec 2013 17:38:25 -0500
 
 cfgf (0.1~15) unstable; urgency=low
 
